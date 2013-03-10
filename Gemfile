@@ -40,4 +40,4 @@ end
 gem "quiet_assets", ">= 1.0.1", :group => :development
 gem 'rb-fsevent', '~> 0.9.1'
 
-
+gem 'devise'

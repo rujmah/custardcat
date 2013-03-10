@@ -17,4 +17,10 @@ Feature: Job feature
 	They should be able to create interviews for candidates
 	They should be able to make notes on the interview 
 	and set the result of the interview
+
+	Scenario: Visit the job page as a company
+		Given I am a logged in as a company user
+		And I have list of basic jobs
+		When I visit the jobs page
+		Then I should see the basic jobs
 	
