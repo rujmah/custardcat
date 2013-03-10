@@ -1,5 +1,5 @@
 Feature: User login
-	
+
 	Scenario: Sign up
 	Scenario: Login as company user
 		Given I have a company user

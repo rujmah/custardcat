@@ -1,7 +1,9 @@
 Custardcat::Application.routes.draw do
+  devise_for :users
+
   get "home/index"
 
   resources :jobs
 
-  root to: "home#index"
+  root to: "jobs#index"
 end
